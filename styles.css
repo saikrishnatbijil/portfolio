@@ -207,3 +207,59 @@
     scale: 1;
   }
 }
+@media (max-width: 768px) {
+  .navbar h1 {
+    font-size: 50px;
+  }
+  .mainTxt {
+    font-size: 20px;
+  }
+  .subTxt {
+    font-size: 12px;
+  }
+  .cards {
+    width: 90%;
+    padding: 20px;
+  }
+  .icons {
+    width: 90%;
+  }
+  .icon {
+    padding: 5px;
+    font-size: 8px;
+  }
+  .iconImg {
+    width: 60px;
+  }
+}
+@media (max-width: 768px) {
+  .navLinks ul li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: row;
+  }
+  .cards ul li {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 768px) {
+  .icon {
+    padding: 15px;
+    margin: 10px;
+  }
+  .icons {
+    flex-direction: column;
+  }
+  .icon:hover {
+    scale: 1;
+  }
+  .mainTxt:hover {
+    scale: 1;
+    color: white;
+  }
+}
